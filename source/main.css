@@ -1,0 +1,49 @@
+.container {
+  /*
+    If you have a block-level element of a certain width, margin: 0 auto;
+    will how you center it inside its parent container.
+
+    See: http://bluerobot.com/web/css/center1.html
+    
+    Don't change the container width.
+  */
+  margin: 0 auto;  
+  width: 720px;
+}
+
+div #registration {
+	margin: auto;
+	border: 1px solid black;
+	height: 45px;
+	width: 275px;
+	/*padding: 50px;*/
+	padding-top: 15px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	/*margin-left: 150px;
+	margin-right: 150px;*/
+	border-radius: 10px;
+	background: linear-gradient(to bottom, #726456, #444256);
+}
+
+input[type="text"] {
+	width: 250px;
+	height: 25px;
+	margin-bottom: 4px;
+}
+
+input[type="password"] {
+	width: 150px;
+	height: 28px;
+}
+
+button[type="submit"] {
+	margin-top: 8px;
+	margin-left: 6px;
+	width: 90px;
+	height: 35px;
+	background-color: #3f4049;
+	color: white;
+	box-shadow: 1px 1px 2px 1px grey;
+}
